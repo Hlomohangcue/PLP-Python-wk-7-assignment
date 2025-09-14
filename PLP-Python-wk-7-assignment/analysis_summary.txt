@@ -1,0 +1,43 @@
+IRIS DATASET ANALYSIS SUMMARY
+========================================
+
+DATASET OVERVIEW:
+Rows: 150
+Columns: 6
+Species: setosa, versicolor, virginica
+
+BASIC STATISTICS:
+       sepal length (cm)  sepal width (cm)  petal length (cm)  \
+count         150.000000        150.000000         150.000000   
+mean            5.843333          3.057333           3.758000   
+std             0.828066          0.435866           1.765298   
+min             4.300000          2.000000           1.000000   
+25%             5.100000          2.800000           1.600000   
+50%             5.800000          3.000000           4.350000   
+75%             6.400000          3.300000           5.100000   
+max             7.900000          4.400000           6.900000   
+
+       petal width (cm)  
+count        150.000000  
+mean           1.199333  
+std            0.762238  
+min            0.100000  
+25%            0.300000  
+50%            1.300000  
+75%            1.800000  
+max            2.500000  
+
+SPECIES GROUP STATISTICS:
+           sepal length (cm)                 sepal width (cm)                  \
+                        mean   std  min  max             mean   std  min  max   
+species                                                                         
+setosa                  5.01  0.35  4.3  5.8             3.43  0.38  2.3  4.4   
+versicolor              5.94  0.52  4.9  7.0             2.77  0.31  2.0  3.4   
+virginica               6.59  0.64  4.9  7.9             2.97  0.32  2.2  3.8   
+
+           petal length (cm)                 petal width (cm)                  
+                        mean   std  min  max             mean   std  min  max  
+species                                                                        
+setosa                  1.46  0.17  1.0  1.9             0.25  0.11  0.1  0.6  
+versicolor              4.26  0.47  3.0  5.1             1.33  0.20  1.0  1.8  
+virginica               5.55  0.55  4.5  6.9             2.03  0.27  1.4  2.5  
